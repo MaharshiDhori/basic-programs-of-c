@@ -9,3 +9,6 @@ This will help you to start with the programming and to build solid logical thin
   <li>Data and operators</li>
   <li>Functions</li>
 </ul>
+
+
+**The content of this repository will be updated soon. 
