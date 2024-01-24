@@ -1,11 +1,13 @@
 #include<stdio.h>
 
-int listOfSum(int arr[], int n)
+// Sum of given list
+
+int sumOfList(int arr[], int n)
 {
     int sum = 0;
     for(int i = 0; i < n; i++)
     {
-        sum += arr[i];
+        sum += arr[i];   // sum = sum + arr[i] (element of array)
     }
     return sum;
 }
@@ -23,7 +25,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    printf("Sum of elements of the list is: %d", listOfSum(arr, n));
+    printf("Sum of elements of the list is: %d", sumOfList(arr, n));
 
     return 0;
 }

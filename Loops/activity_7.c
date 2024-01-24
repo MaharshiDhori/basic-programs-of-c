@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+// Perfect Number
+
 int main()
 {
     int num, rem=0, sum=0;

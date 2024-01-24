@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// Sum and average of elements of an array
+
 int main()
 {
     int n;

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Pyramid pattern
+
 int main()
 {
     int rows;

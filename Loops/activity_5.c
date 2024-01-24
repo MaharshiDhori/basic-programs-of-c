@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+
+// Count the number of odd and even elements in the given list
+
 int main()
 {
     int n;

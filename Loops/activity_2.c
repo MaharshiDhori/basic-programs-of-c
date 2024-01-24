@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Avg score calculation
+
 int main()
 {
     int count;
