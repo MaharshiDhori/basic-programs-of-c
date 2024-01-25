@@ -6,6 +6,7 @@ int main()
 {
     int p, q;
     int i, j, k;
+    printf("\n----------First array-------------\n");
     printf("Enter the number of the elements: ");
     scanf("%d", &p);
     int arr1[p];
@@ -15,6 +16,16 @@ int main()
         scanf("%d", &arr1[i]);
     }
 
+    printf("The first array is: ");
+    for (i = 0; i < p; i++)
+    {
+        printf("%d ", arr1[i]);
+    }
+
+    printf("\n----------Second array-------------\n");
+
+    printf("Enter the number of the elements: ");
+    scanf("%d", &q);
     int arr2[q];
     printf("Enter the elements in second array: ");
     for (int i = 0; i < q; i++)
@@ -29,6 +40,7 @@ int main()
     {
         mergedArray[i] = arr1[i];
     }
+    i = p;
     for (j = 0; j < q; j++)
     {
         mergedArray[i] = arr2[j];
@@ -37,9 +49,9 @@ int main()
 
     for (i = 0; i < r; i++)
     {
-        for ( k = 0; k < r-1; i++)
+        for ( k = 0; k < r-1; k++)
         {
-            if (mergedArray[k]==mergedArray[k+1])
+            if (mergedArray[k]<mergedArray[k+1])
             {
                 j = mergedArray[k+1];
                 mergedArray[k+1] = mergedArray[k];
@@ -48,6 +60,12 @@ int main()
             
         }
         
+    }
+
+    printf("The merged array is: ");
+    for (i = 0; i < r; i++)
+    {
+        printf("%d ", mergedArray[i]);
     }
 
     return 0;
