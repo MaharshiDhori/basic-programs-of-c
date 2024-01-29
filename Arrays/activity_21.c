@@ -22,7 +22,7 @@ int main()
     }
 
     int newElement;
-    printf("enter the new element: ");
+    printf("\nenter the new element: ");
     scanf("%d", &newElement);
 
     // Find the position to insert the new element
