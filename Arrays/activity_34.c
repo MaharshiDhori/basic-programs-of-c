@@ -1,4 +1,7 @@
 #include<stdio.h>
+
+// check pair of elements whose sum is equal to given number
+
 int chkPair(int arr[], int size, int x);
 
 int main()
