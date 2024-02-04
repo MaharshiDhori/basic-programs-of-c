@@ -4,7 +4,7 @@
 void sortingArray(int a[8]);
 int main()
 {
-    printf("Enter the elements of the array: ");
+    printf("Enter the 8 elements to the array: ");
     int i;
     int a[8];
     for (i = 0; i < 8; i++)
@@ -24,9 +24,9 @@ void sortingArray(int a[8])
     int temp;
     for (i = 0; i < 8; i++)
     {
-        for (j = 0; j < 8; j++)
+        for (j = i + 1; j < 8; j++)
         {
-            if(a[i]<a[j])   //Ascending order
+            if(a[i]>a[j])   //Ascending order
             {
                 temp = a[i];
                 a[i] = a[j];
