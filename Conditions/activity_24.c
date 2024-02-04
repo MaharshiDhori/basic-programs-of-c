@@ -23,7 +23,7 @@ void calulcateBill(float p)
 {
 
     float surcharge;
-    surcharge = p * 0.15;
+    // surcharge = p * 0.15;
 
     if (p <= 199)
     {

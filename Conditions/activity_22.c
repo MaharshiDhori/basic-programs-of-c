@@ -5,7 +5,7 @@ void findNumberofDaysInMonth(int n);
 int main()
 {
     int monthNumber;
-    printf("Enter the month of the number: ");
+    printf("Enter the number of the month: ");
     scanf("%d", &monthNumber);
 
     findNumberofDaysInMonth(monthNumber);
