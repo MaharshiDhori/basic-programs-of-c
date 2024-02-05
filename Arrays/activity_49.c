@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// Finding the smallest missing positive element from the unsorted array
+// Finding the missing element in the array
 
 int main()
 {
