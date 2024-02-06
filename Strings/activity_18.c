@@ -2,7 +2,7 @@
 #include<string.h>
 #include<stdlib.h>
 
-// covering spcaes with sopecific character from the file
+// covering spcaes with specific character from the file
 
 int main()
 {
