@@ -8,6 +8,8 @@ This will help you to start with the programming and to build solid logical thin
   <li>Loop</li>
   <li>Data and operators</li>
   <li>Functions</li>
+  <li>Arrays</li>
+  <li>String and File</li>
 </ul>
 
 
