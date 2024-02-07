@@ -10,6 +10,7 @@ This will help you to start with the programming and to build solid logical thin
   <li>Functions</li>
   <li>Arrays</li>
   <li>String and File</li>
+  <li>Object Oriented Programing (C++)</li>
 </ul>
 
 

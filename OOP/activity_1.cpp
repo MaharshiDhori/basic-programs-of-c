@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Display student name, roll number and total marks using class and object
 class Student {
     public :
         int rollNum;

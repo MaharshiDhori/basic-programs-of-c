@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//Display account number, account type and account balance with the depostie and withdraw using class object and constructor
 class Account
 {
 public:

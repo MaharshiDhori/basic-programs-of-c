@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//Display account number, account type and account balance using class and object
+
 class Account
 {
 public:
