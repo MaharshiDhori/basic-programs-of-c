@@ -20,24 +20,21 @@ int main()
 
     printf("\n");
 
-    for(int i = 0; i<10; i++)
-    {   
-        while (i == arr[i])
-        {
-            printf("Number: %d ceiling is: %d and floor is: %d\n", arr[i], i, i);
-            continue;
+    for(int i=0; i <=10; i++)
+    {
+        for(int j = 0; j <= n; j++) {
+            if (arr[j] == i) {
+                printf("Number: %d ceiling is: %d floor is: %d\n", arr[j], arr[j], arr[j]);
+            }
         }
-        
-        // if(i == arr[i])
-        // {
-            
-        // }
-        if (i != arr[i])
+        if(i==10)
         {
-            printf("Number: %d ceiling is: %d and floor is: %d\n", i, i + 1, i - 1);
+            printf("Number: %d ceiling is: %d floor is: %d\n", i, -1, i-1);
         }
-        
-        
+        else
+        {
+            printf("Number: %d ceiling is: %d floor is: %d\n", i, i+1, i-1);
+        }
     }
 
     return 0;
