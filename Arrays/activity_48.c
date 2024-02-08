@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// closest pair of elements whose sum is minimum in an array.
+
 int main()
 {
     int sum_1  = 0;

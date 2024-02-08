@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// Finding the missing element in the array
+// Finding the smallest missing element in unsorted the array
 
 int main()
 {
@@ -34,7 +34,7 @@ int main()
         
         if(!found)
         {
-            printf("The missing number is: %d\n", i);
+            printf("The missing smallest number is: %d\n", i);
             break;
         }
     }

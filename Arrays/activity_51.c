@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// Finding the number of triangles that can be formed with the given array
+
 int main()
 {
     int n;
