@@ -1,5 +1,7 @@
 #include<iostream>
 
+// overridden the display method in the derived class to display the discount.
+
 using namespace std;
 
 class Book

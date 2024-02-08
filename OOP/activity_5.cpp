@@ -1,5 +1,7 @@
 #include<iostream>
 
+// used inheritance to demonstrate the relationship between a customer and an account.
+
 using namespace std;
 
 class Customer

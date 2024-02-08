@@ -1,5 +1,7 @@
 #include<iostream>
 
+// Counted the number of instances of the Customer and Account classes.
+
 using namespace std;
 
 class Customer

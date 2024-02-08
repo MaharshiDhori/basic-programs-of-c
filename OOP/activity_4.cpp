@@ -1,5 +1,7 @@
 #include<iostream>
 
+// Demonstrated the simple calculation of the area of a rectangle.
+
 using namespace std;
 
 class Rectangle

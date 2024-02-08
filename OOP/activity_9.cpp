@@ -1,7 +1,5 @@
 #include<iostream>
 
-//Used abstract mehtod to demonstrate the cost of fruits.
-
 using namespace std;
 
 class Fruit
@@ -45,11 +43,13 @@ class FruitDemo
     public:
         static void main()
         {
-            Apple apple(120, 5);
-            apple.cost();
+            Fruit* apple = new Apple(120, 5);
+            apple->cost();
+            // delete apple;
 
-            Mango mango(50, 10);
-            mango.cost();
+            Fruit* mango = new Mango(50, 10);
+            mango->cost();
+            // delete mango;
         }
 };
 
