@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//
+//sum of lower triangular matrix
 
 int main() {
     int matrix[3][3];
